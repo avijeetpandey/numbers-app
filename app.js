@@ -11,4 +11,7 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen(port,()=>console.log('Server is up and running '));
+app.listen(process.env.port,()=>console.log('Server is up and running '));
+
+
+module.exports=app;
