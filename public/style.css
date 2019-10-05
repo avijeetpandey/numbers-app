@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Patrick+Hand&display=swap');
+.searchBox{
+    margin-left:500px;
+    margin-top:50px;
+}
+
+input[type="text"]{
+    padding:25px;
+    width:700px;
+    border-radius: 8px;
+    border:none;
+    background-color: #efe;
+    box-shadow: 5px 5px 15px rgb(189, 167, 167);
+
+}
+
+#btn{
+    padding:15px;
+    border-radius: 8px;
+    border:none;
+    cursor:pointer;
+    background-color: blueviolet;
+    width:100px;
+    margin-left:20px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    font-family: 'acme';
+}
+
+.results{
+    position:absolute;
+    left:40%;
+    top:50%;
+    width:400px;
+    text-align: center;   
+}
+
+.card{
+    visibility: hidden;
+    padding:30px;
+    background-color: white;
+    height:200px;
+    border-radius:10px;
+    box-shadow:5px 5px 5px rgba(233, 192, 192, 0.6);
+    
+}
+
+body{
+    /* background: linear-gradient(to right, #fdfc47, #24fe41); */
+    background-color: black;
+}
+
+h1{ 
+    font-family:'acme';
+    margin-top:35px;
+    color:white;
+    text-align: center;
+}
+
+#title{
+    font-family: 'acme';
+    text-align: center;
+}
+
+.mainbody{
+    font-family: 'Patrick Hand';
+    font-size:18px;
+}
+
+#closebtn{
+    padding:15px;
+    border-radius: 8px;
+    border:none;
+    cursor:pointer;
+    background-color: red;
+    width:100px;
+    margin-left:20px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    font-family: 'acme';
+}
+
+
+@media only screen and (max-width: 640px)
+{   
+
+    .searchBox{
+        margin-left:90px;
+        margin-top:50px;
+    }
+
+    input[type="text"]{
+        padding:25px;
+        width:300px;
+        border-radius: 8px;
+        border:none;
+        background-color: #efe;
+        box-shadow: 5px 5px 15px rgb(189, 167, 167);
+    
+    }
+
+    .results{
+        position:absolute;
+        left:20%;
+        top:50%;
+        width:300px;
+        text-align: center;   
+    }
+    
+    .card{
+        visibility: hidden;
+        padding:30px;
+        background-color: white;
+        height:200px;
+        border-radius:10px;
+        box-shadow:5px 5px 5px rgba(233, 192, 192, 0.6);
+        
+    }
+    #closebtn{
+        padding:15px;
+        border-radius: 8px;
+        border:none;
+        cursor:pointer;
+        background-color: red;
+        width:90px;
+        margin-left:20px;
+        height: 60px;
+        color: white;
+        font-size: 24px;
+        font-family: 'acme';
+    }
+   
+    
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 731px)
+{   
+
+    .searchBox{
+        margin-left:30px;
+        margin-top:50px;
+    }
+
+    input[type="text"]{
+        padding:25px;
+        width:300px;
+        border-radius: 8px;
+        border:none;
+        background-color: #efe;
+        box-shadow: 5px 5px 15px rgb(189, 167, 167);
+    
+    }
+
+    .results{
+        position:absolute;
+        left:13%;
+        top:50%;
+        width:300px;
+        text-align: center;   
+    }
+    
+    .card{
+        visibility: hidden;
+        padding:30px;
+        background-color: white;
+        height:200px;
+        border-radius:10px;
+        box-shadow:5px 5px 5px rgba(233, 192, 192, 0.6);
+        
+    }
+
+    
+    #closebtn{
+        padding:15px;
+        border-radius: 8px;
+        border:none;
+        cursor:pointer;
+        background-color: red;
+        width:90px;
+        margin-left:20px;
+        height: 60px;
+        color: white;
+        font-size: 24px;
+        font-family: 'acme';
+    }
+   
+   
+    
+}
+
+@media only screen and (max-width: 831px)
+{   
+
+    .searchBox{
+        margin-left:5px;
+        margin-top:50px;
+    }
+
+    input[type="text"]{
+        padding:25px;
+        width:300px;
+        border-radius: 8px;
+        border:none;
+        background-color: #efe;
+        box-shadow: 5px 5px 15px rgb(189, 167, 167);
+    
+    }
+
+    .results{
+        position:absolute;
+        left:10%;
+        top:50%;
+        width:300px;
+        text-align: center;   
+    }
+    
+    .card{
+        visibility: hidden;
+        padding:30px;
+        background-color: white;
+        height:200px;
+        border-radius:10px;
+        box-shadow:5px 5px 5px rgba(233, 192, 192, 0.6);
+        
+    }
+    #closebtn{
+        padding:15px;
+        border-radius: 8px;
+        border:none;
+        cursor:pointer;
+        background-color: red;
+        width:90px;
+        margin-left:20px;
+        height: 60px;
+        color: white;
+        font-size: 24px;
+        font-family: 'acme';
+    }
+   
+    
+} 

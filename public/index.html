@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Number Facts</title>
+    <meta name="viewport" content="width=device-width" initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Amazing Numbers</h1>
+    <div class="searchBox">
+        <input type="text" id="search" placeholder="Enter the number">
+        <input type="button" value="Find" id="btn" onclick="getNumberResponse()">
+    </div>
+
+
+    <div class="results"> 
+        <div class='card' id="cards">
+            <h3 id="title"></h3>
+            <div class="mainbody">
+                <span id="results"></span><br><br>
+                <button id="closebtn" onclick="closeIt()">Clear</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
