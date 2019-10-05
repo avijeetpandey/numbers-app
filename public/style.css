@@ -51,7 +51,7 @@ body{
     background-color: black;
 }
 
-h1{ 
+h1,h3{ 
     font-family:'acme';
     margin-top:35px;
     color:white;
