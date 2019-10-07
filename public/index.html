@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Number Facts</title>
-    <meta name="viewport" content="width=device-width" initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>NumbersApp</title>
 </head>
 <body>
-    <h1>Amazing Numbers</h1>
-    <h3>(Enter any nummber it will tell facts about that number .)</h3>
-    <div class="searchBox">
-        <input type="text" id="search" placeholder="Enter the number">
-        <input type="button" value="Find" id="btn" onclick="getNumberResponse()">
-    </div>
-
-
-    <div class="results"> 
-        <div class='card' id="cards">
-            <h2 id="title"></h2>
-            <div class="mainbody">
-                <span id="results"></span><br><br>
-                <button id="closebtn" onclick="closeIt()">Clear</button>
-            </div>
+    <div class="container-fluid">    <nav>
+        <div class="nav-wrapper green accent-3">
+          <a href="#" class="brand-logo center ">
+            <i class="large material-icons">devices</i>
+            Numbers App
         </div>
+      </nav>
     </div>
-    
+    <br><br>
 
-    <script src="script.js"></script>
+
+    <div class="container">
+
+            <h1>Amazing Numbers</h1>
+            <h4>(Enter any number it will tell facts about that number)</h4>
+            <div class="searchBox">
+                <input type="text" id="search" placeholder="Enter the number">
+                <input type="button" value="Find" id="btn" onclick="getNumberResponse()">
+            </div>
+            <div class="results"> 
+                <div class='card' id="cards">
+                    <h2 id="title"></h2>
+                    <div class="mainbody">
+                        <span id="results"></span><br><br>
+                        <button id="closebtn" onclick="closeIt()">Clear</button>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="script.js"></script>
+
+
+    </div>
+  
+
+
+     
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
 </body>
 </html>
