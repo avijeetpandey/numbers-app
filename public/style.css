@@ -20,9 +20,9 @@
 
   .searchBox{
     margin-left:auto;
-    margin-top:50px;
+    margin-top:30px;
 }
-
+/* 
 input[type="text"]{
     padding:25px;
     width:700px;
@@ -31,7 +31,7 @@ input[type="text"]{
     background-color: #efe;
     box-shadow: 5px 5px 15px rgb(189, 167, 167);
 
-}
+} */
 
 #btn{
     padding:15px;
@@ -62,12 +62,17 @@ input[type="text"]{
 
 body{
     /* background: linear-gradient(to right, #fdfc47, #24fe41); */
-    background-color: rgb(155, 243, 147);
+    background-color: rgb(110, 238, 163);
+    margin:0px;
+    padding:0px;
 }
 
-h1,h4{ 
+p{
+    font-size:20px;
+}
+
+h1,p{ 
     font-family:'acme';
-    margin-top:35px;
     color:white;
     text-align: center;
 }
